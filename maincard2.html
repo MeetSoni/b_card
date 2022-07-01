@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+        .nav {
+            min-width: 1440px;
+            overflow: auto;
+            background-color: white;
+            position: absolute;
+            position: fixed;
+            bottom: 0;
+            /* overflow: hidden; */
+            z-index: 1;
+            border-top: 1px solid black;
+            text-align: center;
+        
+        }
+
+        /* .nav::before {
+            content: '';
+           
+            width: 100%;
+            border-top: 1px solid black;
+            position: absolute;
+            top: 0;
+            left: 0;
+        } */
+
+        i {
+            font-size: 20px;
+            color: rgba(255, 217, 0, 0.726);
+
+        }
+
+        .iconbox {
+            width: 70px;
+            height: 50px;
+            float: left;
+            margin-left: 90px;
+            text-align: center;
+            margin-top: 0;
+
+        }
+
+        .iconbox:hover p {
+            color: green;
+        }
+
+
+        .iconbox p {
+            margin-top: 2px;
+        }
+
+        .firstbox {
+            width: 450px;
+            height: 350px;
+            background-color: rgba(0, 0, 0, 0.692);
+            text-align: center;
+            position: relative;
+            box-shadow: 0 6px 20px 0 #dbdbe8;
+
+
+        }
+
+        .firstbox img {
+            width: 120px;
+            height: 50px;
+            border: 8px solid #D1B54B;
+            margin-top: 50px;
+        }
+
+        .firstbox p::before {
+            content: '';
+            width: 100px;
+            border-top: 2px solid #D1B54B;
+            position: absolute;
+            left: 175px;
+        }
+
+        .card{
+            max-width: 450px;
+            overflow: auto;
+            
+            margin: auto;
+        }
+
+        .iconlogo{
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.692);
+            text-align: center;
+            position: relative;
+            box-shadow: 0 6px 20px 0 #dbdbe8;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .iconlogo img{
+            width: 120px;
+            height: 50px;
+            border: 8px solid #D1B54B;
+            margin-top: 50px;
+        }
+
+        .iconlogo p::before {
+            content: '';
+            width: 100px;
+            border-top: 2px solid #D1B54B;
+            position: absolute;
+            left: 38%;
+            top: 70%;
+        }
+        .iconlogo h1{
+            color: white;
+           
+            letter-spacing: 5px; 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .iconlogo h4{
+            color: white;
+            padding-top: 13px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .about{
+            width: 100%;
+            background-color: white;
+            box-shadow: 0 6px 20px 0 #dbdbe8;
+            
+            position: relative;
+            border: 1px solid black;
+            /* text-align: center; */
+        }
+
+        .siconbox{
+            width: 40px;
+            height: 40px;
+            background-color: #D1B54B;
+            border-radius: 50%;
+            margin-left: 45%;
+            margin-top: 20%;
+            position: relative;
+        }
+        i{
+            margin-top: 21%;
+            margin-left: 5%;
+
+        }
+
+        .about input{
+            text-align: center;
+            border: none;
+            background-color: white;
+            margin-top: 5%;
+        }
+        
+       
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+
+        <a href="">
+            <div class="iconbox">
+                <i class="fa-solid fa-house-chimney"></i>
+                <p>Home</p>
+            </div>
+        </a>
+
+        <a href="#a">
+            <div class="iconbox">
+                <i class="fa-solid fa-briefcase"></i>
+                <p>About us</p>
+            </div>
+        </a>
+
+        <a href="#b">
+            <div class="iconbox">
+                <i class="fa-solid fa-box-open"></i>
+                <p>Offers</p>
+            </div>
+        </a>
+
+        <a href="#c">
+            <div class="iconbox">
+                <i class="fa-solid fa-images"></i>
+                <p>Gallery</p>
+            </div>
+        </a>
+
+        <a href="#d">
+            <div class="iconbox">
+                <i class="fa-solid fa-envelopes-bulk"></i>
+                <p>Services</p>
+            </div>
+        </a>
+
+        <a href="#e">
+            <div class="iconbox">
+                <i class="fa-solid fa-star"></i>
+                <p>Rattings</p>
+            </div>
+        </a>
+
+        <a href="#f">
+            <div class="iconbox">
+                <i class="fa-solid fa-question"></i>
+                <p>Enquiry</p>
+            </div>
+        </a>
+
+
+
+    </div>
+
+    <div class="card">
+        <div class="iconlogo">
+            <img src="barodian.png" alt="" style="background-color: white;">
+            <h1>Barodian Market</h1>
+            <p></p>
+            <h4>Kuldeep Virpura</h4>
+        </div>
+
+        <div class="about">
+            <div class="siconbox"><i class="fa-solid fa-phone"></i></div>
+            <input type="text" disabled value="9922993399" id="2">
+
+            <div class="siconbox"><i class=" far fa-envelope "></i></div>
+                <input type="text" disabled value="meet123@hhh" id="4">
+
+                <div class="siconbox"><i class="fas fa-globe "></i></div>
+                <input type="text" disabled value="barodianmarket.com" id="6" style="margin: left 110px;">
+
+                <div class="siconbox"><i class="fa-solid fa-location-dot"></i></div>
+                <input type="text" disabled value="sayajiganj, vadodara" id="8">
+
+            
+        </div>
+    </div>
+
+ 
+</body>
+</html>
